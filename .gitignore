@@ -119,6 +119,7 @@ app.*.symbols
 !/dev/ci/**/Gemfile.lock
 
 # Firebase configuration files
+lib/firebase_options.dart
 **/google-services.json
 **/GoogleService-Info.plist
 **/firebase-config.js
