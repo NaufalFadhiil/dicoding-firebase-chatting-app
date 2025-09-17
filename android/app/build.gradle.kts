@@ -27,7 +27,7 @@ android {
         applicationId = "com.dicoding.chatting_app"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = 23
+        minSdkVersion(flutter.minSdkVersion)
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -47,7 +47,6 @@ flutter {
 }
 
 dependencies {
-   implementation "androidx.multidex:multidex:2.0.1"
- 
-   implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
+    implementation("androidx.multidex:multidex:2.0.1")
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
 }
