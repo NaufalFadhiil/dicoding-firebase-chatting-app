@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "223111916869",
+    "project_id": "dicoding-chatting-ad956",
+    "storage_bucket": "dicoding-chatting-ad956.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223111916869:android:5e3c73978e915b29a4a22c",
+        "android_client_info": {
+          "package_name": "com.dicoding.chatting_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdZ6E9zIlU2BcO1xKmM8wSpaW4uAOEYf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
